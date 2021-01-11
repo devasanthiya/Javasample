@@ -141,7 +141,7 @@ public	static String  value;
 	//16.quit
 	public static void allclose() {
 		driver.quit();
-
+System.out.println("Hello all");
 	}
 
 }

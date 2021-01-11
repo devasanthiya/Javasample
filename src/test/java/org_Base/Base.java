@@ -138,5 +138,10 @@ public	static String  value;
 		driver.close();
 
 	}
+	//16.quit
+	public static void allclose() {
+		driver.quit();
+
+	}
 
 }

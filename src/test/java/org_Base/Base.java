@@ -136,9 +136,10 @@ public	static String  value;
 	//15.close
 	public static void closing() {
 		driver.close();
-//move to window 
+
 		
 	}
+	//16.move to window 
 	public static void windowmove(String a) {
 		driver.switchTo().window(a);
 
